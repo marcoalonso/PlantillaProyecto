@@ -14,6 +14,7 @@
 		6C2EBAB325A7AACA00A6445B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2EBAB225A7AACA00A6445B /* Assets.xcassets */; };
 		6C2EBAB625A7AACA00A6445B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2EBAB425A7AACA00A6445B /* LaunchScreen.storyboard */; };
 		6C2EBABF25A7ABEE00A6445B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBABE25A7ABEE00A6445B /* MenuViewController.swift */; };
+		6C2EBAE825A7DB4600A6445B /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBAE725A7DB4600A6445B /* RegistroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6C2EBAB525A7AACA00A6445B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C2EBAB725A7AACA00A6445B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C2EBABE25A7ABEE00A6445B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6C2EBAE725A7DB4600A6445B /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6C2EBAB425A7AACA00A6445B /* LaunchScreen.storyboard */,
 				6C2EBAB725A7AACA00A6445B /* Info.plist */,
 				6C2EBABE25A7ABEE00A6445B /* MenuViewController.swift */,
+				6C2EBAE725A7DB4600A6445B /* RegistroViewController.swift */,
 			);
 			path = EsqueletonProject;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				6C2EBAAE25A7AAC900A6445B /* ViewController.swift in Sources */,
 				6C2EBAAA25A7AAC900A6445B /* AppDelegate.swift in Sources */,
 				6C2EBAAC25A7AAC900A6445B /* SceneDelegate.swift in Sources */,
+				6C2EBAE825A7DB4600A6445B /* RegistroViewController.swift in Sources */,
 				6C2EBABF25A7ABEE00A6445B /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VL5533SK6;
 				INFOPLIST_FILE = EsqueletonProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VL5533SK6;
 				INFOPLIST_FILE = EsqueletonProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
