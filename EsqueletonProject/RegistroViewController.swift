@@ -15,9 +15,6 @@ class RegistroViewController: UIViewController {
     @IBOutlet weak var registrarButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        registrarButton.layer.cornerRadius = 12
-        registrarButton.layer.masksToBounds = true
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
