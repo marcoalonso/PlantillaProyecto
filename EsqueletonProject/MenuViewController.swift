@@ -25,7 +25,17 @@ class MenuViewController: UIViewController {
         
     }
     
-
+    @IBAction func alertaButton(_ sender: UIButton) {
+        let alerta = UIAlertController(title: "Ejemplo de algo", message: "Ejemplo de mensaje", preferredStyle: .alert)
+        alerta.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: { _ in
+            //codigo para hacer algo
+            print("Hola")
+        }))
+        alerta.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: nil))
+        
+        present(alerta, animated: true, completion: nil)
+    }
+    
 }
 
 extension UINavigationController {
