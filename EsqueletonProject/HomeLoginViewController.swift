@@ -7,12 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeLoginViewController: UIViewController {
 
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var registroButton: UIButton!
-    @IBOutlet weak var correoTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         

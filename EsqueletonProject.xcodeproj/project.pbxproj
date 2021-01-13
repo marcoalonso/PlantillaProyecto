@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		6C2EBAAA25A7AAC900A6445B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBAA925A7AAC900A6445B /* AppDelegate.swift */; };
 		6C2EBAAC25A7AAC900A6445B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBAAB25A7AAC900A6445B /* SceneDelegate.swift */; };
-		6C2EBAAE25A7AAC900A6445B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBAAD25A7AAC900A6445B /* ViewController.swift */; };
+		6C2EBAAE25A7AAC900A6445B /* HomeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBAAD25A7AAC900A6445B /* HomeLoginViewController.swift */; };
 		6C2EBAB125A7AAC900A6445B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2EBAAF25A7AAC900A6445B /* Main.storyboard */; };
 		6C2EBAB325A7AACA00A6445B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2EBAB225A7AACA00A6445B /* Assets.xcassets */; };
 		6C2EBAB625A7AACA00A6445B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2EBAB425A7AACA00A6445B /* LaunchScreen.storyboard */; };
 		6C2EBABF25A7ABEE00A6445B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBABE25A7ABEE00A6445B /* MenuViewController.swift */; };
 		6C2EBAE825A7DB4600A6445B /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EBAE725A7DB4600A6445B /* RegistroViewController.swift */; };
 		6C79DE4525AF57C500BBC3CD /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79DE4425AF57C500BBC3CD /* EditarPerfilViewController.swift */; };
+		6C79DE5025AF5DA900BBC3CD /* ArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79DE4F25AF5DA900BBC3CD /* ArchivosViewController.swift */; };
+		6C79DE5325AF5DB600BBC3CD /* NosotrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79DE5225AF5DB600BBC3CD /* NosotrosViewController.swift */; };
+		6C79DE5625AF5DC000BBC3CD /* PeliculasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79DE5525AF5DC000BBC3CD /* PeliculasViewController.swift */; };
+		6C79DE5925AF5DE200BBC3CD /* UbicanosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79DE5825AF5DE200BBC3CD /* UbicanosViewController.swift */; };
 		6CC0979025A7E24200A6F4BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC0978F25A7E24200A6F4BE /* LoginViewController.swift */; };
 		6CC0979325A7F8F000A6F4BE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC0979225A7F8F000A6F4BE /* DesignableView.swift */; };
 /* End PBXBuildFile section */
@@ -24,7 +28,7 @@
 		6C2EBAA625A7AAC900A6445B /* EsqueletonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsqueletonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2EBAA925A7AAC900A6445B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C2EBAAB25A7AAC900A6445B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C2EBAAD25A7AAC900A6445B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C2EBAAD25A7AAC900A6445B /* HomeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoginViewController.swift; sourceTree = "<group>"; };
 		6C2EBAB025A7AAC900A6445B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C2EBAB225A7AACA00A6445B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C2EBAB525A7AACA00A6445B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +36,10 @@
 		6C2EBABE25A7ABEE00A6445B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		6C2EBAE725A7DB4600A6445B /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		6C79DE4425AF57C500BBC3CD /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
+		6C79DE4F25AF5DA900BBC3CD /* ArchivosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosViewController.swift; sourceTree = "<group>"; };
+		6C79DE5225AF5DB600BBC3CD /* NosotrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NosotrosViewController.swift; sourceTree = "<group>"; };
+		6C79DE5525AF5DC000BBC3CD /* PeliculasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculasViewController.swift; sourceTree = "<group>"; };
+		6C79DE5825AF5DE200BBC3CD /* UbicanosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbicanosViewController.swift; sourceTree = "<group>"; };
 		6CC0978F25A7E24200A6F4BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6CC0979225A7F8F000A6F4BE /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +76,7 @@
 			children = (
 				6C2EBAA925A7AAC900A6445B /* AppDelegate.swift */,
 				6C2EBAAB25A7AAC900A6445B /* SceneDelegate.swift */,
-				6C2EBAAD25A7AAC900A6445B /* ViewController.swift */,
+				6C2EBAAD25A7AAC900A6445B /* HomeLoginViewController.swift */,
 				6C2EBAAF25A7AAC900A6445B /* Main.storyboard */,
 				6C2EBAB225A7AACA00A6445B /* Assets.xcassets */,
 				6C2EBAB425A7AACA00A6445B /* LaunchScreen.storyboard */,
@@ -78,6 +86,10 @@
 				6CC0978F25A7E24200A6F4BE /* LoginViewController.swift */,
 				6CC0979225A7F8F000A6F4BE /* DesignableView.swift */,
 				6C79DE4425AF57C500BBC3CD /* EditarPerfilViewController.swift */,
+				6C79DE4F25AF5DA900BBC3CD /* ArchivosViewController.swift */,
+				6C79DE5225AF5DB600BBC3CD /* NosotrosViewController.swift */,
+				6C79DE5525AF5DC000BBC3CD /* PeliculasViewController.swift */,
+				6C79DE5825AF5DE200BBC3CD /* UbicanosViewController.swift */,
 			);
 			path = EsqueletonProject;
 			sourceTree = "<group>";
@@ -153,9 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CC0979025A7E24200A6F4BE /* LoginViewController.swift in Sources */,
-				6C2EBAAE25A7AAC900A6445B /* ViewController.swift in Sources */,
+				6C79DE5925AF5DE200BBC3CD /* UbicanosViewController.swift in Sources */,
+				6C79DE5025AF5DA900BBC3CD /* ArchivosViewController.swift in Sources */,
+				6C2EBAAE25A7AAC900A6445B /* HomeLoginViewController.swift in Sources */,
 				6C79DE4525AF57C500BBC3CD /* EditarPerfilViewController.swift in Sources */,
+				6C79DE5625AF5DC000BBC3CD /* PeliculasViewController.swift in Sources */,
 				6C2EBAAA25A7AAC900A6445B /* AppDelegate.swift in Sources */,
+				6C79DE5325AF5DB600BBC3CD /* NosotrosViewController.swift in Sources */,
 				6C2EBAAC25A7AAC900A6445B /* SceneDelegate.swift in Sources */,
 				6C2EBAE825A7DB4600A6445B /* RegistroViewController.swift in Sources */,
 				6CC0979325A7F8F000A6F4BE /* DesignableView.swift in Sources */,

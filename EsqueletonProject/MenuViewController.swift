@@ -21,7 +21,7 @@ class MenuViewController: UIViewController {
     @IBAction func cerrarSesion(_ sender: UIBarButtonItem) {
         
         self.dismiss(animated: true, completion: nil)
-        self.navigationController?.popToViewController(ofClass: ViewController.self)
+        self.navigationController?.popToViewController(ofClass: HomeLoginViewController.self)
         
     }
     
